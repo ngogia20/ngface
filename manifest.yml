@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ngface
+  host: ngface
+  disk_quota: 1024M
+  services:
+  - ngface-cloudantNoSQLDB
+  - ngface-iotf-service
